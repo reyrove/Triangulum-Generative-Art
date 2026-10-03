@@ -1,210 +1,177 @@
 # Triangulum — Generative Art
 
-[![Live Demo](https://img.shields.io/badge/demo-live-green?style=for-the-badge)](https://reyrove.github.io/Triangulum-Generative-Art)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
-> **Generative triangle art with celestial aesthetics.** Each refresh creates a cosmic landscape of magical triangles, glowing planets, frost particles, and arc patterns arranged in a 5×5 grid.
-
-## 🎨 Live Demo
-
-<div align="center">
-  <a href="https://reyrove.github.io/Triangulum-Generative-Art" target="_blank">
-    <img src="demo-screenshot.jpg" alt="Triangulum Website Demo" width="800" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.4);"/>
-  </a>
-  <br><br>
-  <a href="https://reyrove.github.io/Triangulum-Generative-Art" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_View_Live_Demo-0a0a0a?style=for-the-badge&logo=githubpages&logoColor=white&color=6C3B9E" alt="View Live Demo" width="300"/>
-  </a>
-  <br>
-  <em>Click the image or button to experience the generative art</em>
-</div>
-
-## 👕 Apparel Preview
-
-<div align="center">
-  <img src="Triangulum.jpg" alt="Triangulum on T-Shirt" width="600" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
-  <br>
-  <em>Triangulum artwork printed on a T-shirt</em>
-</div>
-
-## ✨ Features
-
-- **Celestial Theme** — Cosmic colors and magical atmosphere
-- **5×5 Grid** — 25 positions for planets, frost particles, and magical triangles
-- **17 Arcs** — Rotating triangular arc patterns
-- **Dynamic Colors** — Randomly generated color palettes
-- **Glow Effects** — Radial gradients and glow layers
-- **Animated** — Continuous rotation and pulsation
-- **Save & Share** — Download as PNG
-- **Apparel Mode** — Preview artwork on a T-shirt mockup
-- **Responsive** — Works on desktop, tablet, and mobile
-- **p5.js Powered** — Built with the creative coding library
-- **Keyboard Shortcuts**:
-  - `R` — Regenerate
-  - `S` — Save image
-  - `T` — Toggle apparel view
-  - `Space` — Regenerate
-
-## 🎨 Artwork Details
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| **Grid Size** | 5×5 | 25 positions total |
-| **Arc Count** | 17 | Rotating triangular arcs |
-| **Planets** | 25 | Glowing celestial bodies |
-| **Frost Particles** | 25 | Delicate ice crystals |
-| **Magical Triangles** | 25 | Gradient-filled triangles |
-
-## 🎯 Visual Elements
-
-### Magical Arcs
-- 17 rotating arcs arranged in concentric circles
-- Each arc is composed of 32 triangular segments
-- Gradient colors transition across each arc
-- Glowing stroke effects create depth
-
-### Planets
-- 25 glowing planets in a 5×5 grid
-- Radial gradient fills
-- Glow layers create luminous halos
-- Pulsating sizes add life
-
-### Frost Particles
-- 25 delicate ice crystals
-- Translucent white triangles
-- Random sizes and opacities
-- Scattered across the grid
-
-### Magical Triangles
-- 25 gradient-filled triangles
-- Random sizes and positions
-- Star-like color palette
-- Radial gradient fills
-
-## 🚀 Quick Start
-
-### Local Development
-
-```bash
-# Clone the repository
-git clone https://github.com/reyrove/Triangulum-Generative-Art.git
-
-# Navigate to the directory
-cd Triangulum-Generative-Art
-
-# Open in browser
-open index.html
-# or use a live server
-```
-
-### Deploy to GitHub Pages
-
-1. Push to GitHub
-2. Go to Settings → Pages
-3. Select branch `main` and root folder
-4. Your site will be live at `https://reyrove.github.io/Triangulum-Generative-Art`
-
-## 🧠 How It Works
-
-The artwork creates a cosmic triangle-based landscape:
-
-1. **Setup**:
-   - Random color palettes for arcs, stars, and planets
-   - 5×5 grid positions calculated
-   - Frost particles, planets, and magical triangles placed
-
-2. **Rendering**:
-   - Background with random dark/translucent color
-   - Planets drawn with glow effects
-   - 17 rotating arcs with triangular segments
-   - Frost particles and magical triangles overlaid
-
-3. **Animation**:
-   - Continuous rotation of arc patterns
-   - Pulsating planet sizes
-   - Dynamic color shifts
-   - Always evolving visual experience
-
-## 📁 File Structure
-
-```
-Triangulum-Generative-Art/
-├── index.html          # Main application (all-in-one)
-├── Triangulum.jpg      # T-shirt mockup image
-├── fav.svg             # Favicon
-├── demo-screenshot.jpg # Website demo screenshot
-├── README.md           # This file
-└── LICENSE             # MIT License
-```
-
-## 🛠️ Tech Stack
-
-- **p5.js** — Creative coding library
-- **Canvas API** — 2D rendering with gradients
-- **CSS Flexbox/Grid** — Responsive layout
-- **GitHub Pages** — Hosting
-
-## 🎯 Interactive Controls
-
-| Action | Keyboard | Button |
-|--------|----------|--------|
-| Regenerate | `R` or `Space` | Click "regenerate" |
-| Save Image | `S` | Click "regenerate" |
-| Toggle Apparel | `T` | Click "apparel" |
-
-## 🎨 The Creative Process
-
-### Triangular Architecture
-Every element in the artwork is built from triangles. From the arc segments to the planets and frost particles, triangles form the fundamental visual language.
-
-### Celestial Color Palette
-Colors are generated with cosmic inspiration—deep purples, vibrant magentas, icy blues, and warm golds. Each refresh produces a unique color world.
-
-### Layered Depth
-Multiple visual layers create depth:
-1. Background with subtle transparency
-2. Glowing planets with radial gradients
-3. Rotating arc patterns
-4. Frost particles and magical triangles
-
-### Continuous Evolution
-The artwork animates continuously, with arcs rotating and planets pulsating, creating a living, breathing cosmic scene.
-
-## 📱 Responsive Design
-
-The application automatically adapts to:
-- Desktop screens
-- Tablets
-- Mobile phones
-- Landscape orientation
-- Various aspect ratios
-- Small screens (down to 380px wide)
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Fork the repository
-- Create a feature branch
-- Submit a pull request
-
-### Ideas for Contributions:
-- Additional grid sizes
-- New triangle patterns
-- Interactive controls
-- Color palette presets
-- Performance optimizations
-- More apparel mockups
-
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Created with p5.js
-- Inspired by celestial patterns and triangular geometry
-- Special thanks to the creative coding community
+> A seed-based generative system for triangle-arc compositions.  
+> A reproducible catalogue of computational constellation studies.
 
 ---
 
-**Built with ❤️ and triangular dreams**
+## What is this?
+
+**Triangulum** is a generative design system that takes the triangle as its fundamental unit. Seventeen triangle-arcs radiate from the centre at graduated diameters — their size, colour, and stroke weight drifting with position. Behind them, a 5×5 grid carries two counter-layers: white frost particles scattered like stars, and a set of glowing triangle-planets, each with its own haloed glow.
+
+Every artwork in this catalogue is defined by a single numeric seed. The same seed always produces the identical composition — making each piece **traceable, reproducible, and licensable** across textile, print, and apparel applications.
+
+Named for the small northern constellation, **Triangulum** reframes radiating geometry as a textile.
+
+---
+
+## Live
+
+🌐 **[View the catalogue →](https://reyrove.github.io/Triangulum/)**
+
+---
+
+## The System
+
+The generator combines three layers:
+
+| Layer | Description |
+|-------|-------------|
+| **Triangle-arcs** | 17 triangles drawn at graduated diameters around a common centre — each arc is a stack of 32 thin triangles. |
+| **Frost grid** | A 5×5 lattice of white triangle particles, scattered across the canvas. |
+| **Planets** | A 5×5 grid of triangle-planets, each with a radial gradient fill and a concentric triangle glow. |
+
+All three layers are driven by the same seed, ensuring deterministic output.
+
+### Parameters
+
+- **Grid** — 5 columns × 5 rows
+- **Arcs** — 17 triangle-arcs, graduated from `16%` of canvas to nearly full width
+- **Arc layers** — 32 triangles per arc, colour-lerped along the arc's length
+- **Triangle-orb size** — `canvasSize / 40` to `canvasSize / 13`
+- **Planet size** — `canvasSize / 16` to `canvasSize / 6.4`
+- **Frost particle size** — `canvasSize / 200` to `canvasSize / 130`
+- **Arc palette** — 5 tones, each randomised RGB
+- **Star palette** — 5 tones, each randomised RGB
+- **Planet palette** — 5 tones, each randomised RGBA
+
+---
+
+## Structure
+
+```
+Triangulum/
+├── index.html              ← Full catalogue (single-file)
+├── images/
+│   ├── fav.svg
+│   ├── triangulum-tote.png
+│   ├── triangulum-cushion.png
+│   └── ...
+├── Triangulum.jpg          ← Apparel mockup
+└── README.md
+```
+
+The entire project is contained in a single `index.html` — no build step, no framework. The only external dependency is **p5.js** (loaded from CDN), which drives the exact sketch pipeline.
+
+---
+
+## Features
+
+- **Seed-based generation** — every composition is deterministic and reproducible
+- **Live animation** — the plate runs continuously; the cover and framed plate auto-stop after 30 seconds
+- **Live catalogue** — cover, statement, plate, surfaces, process, archive, commission sections
+- **Multiple surfaces** — print, scarf, textile, wallpaper — all rendered from the same seed
+- **Archive of 8 seeds** — click any plate to load it into the main view
+- **PNG export** — download the current frame of the plate directly from the browser
+- **Keyboard shortcuts** — `R` for new seed, `S` to save
+- **Legal modal** — licensing, terms, and credits built in
+- **Responsive** — works on desktop, tablet, and mobile
+- **Mobile-first navbar** — horizontally scrollable with fade hint
+
+---
+
+## Usage
+
+### Generate a new composition
+
+Click **New Seed** or press `R`.
+
+### Download the current frame
+
+Click **Download** or press `S`.
+
+### Load a seed from the archive
+
+Click any plate in the **Archive** section.
+
+---
+
+## Color System
+
+Every composition is drawn from four seeded palettes, each built at setup time:
+
+| Palette | Size | Range |
+|---------|------|-------|
+| **Arc colours** | 5 tones | Bounded RGB, biased toward warm / bright mid-tones |
+| **Star colours** | 5 tones | Bounded RGB, biased toward high contrast |
+| **Planet colours** | 5 tones | Bounded RGBA with seeded alpha |
+| **Background** | Per-frame drift | RGB noise, near-black, low alpha |
+
+Each arc draws its colour from a pair of arc-palette entries, lerped across the 32 layers. Each planet draws from the planet palette based on its grid position (`(row + col) % 5`). Same for the triangle-orb grid, drawn from the star palette.
+
+Because the palettes are all seeded, no two compositions share the same rhythm of colour.
+
+---
+
+## Technical Notes
+
+- **p5.js** drives the composition. The triangle primitive, triangle-arc layering, and radial gradient fills all use p5's native functions.
+- **Seeded randomness** for structural parameters uses a Lehmer LCG.
+- **Live plate** — 30fps, continuously animating.
+- **Cover and framed plate** — 20fps, freeze after 30 seconds of animation.
+- **Frozen stills** — the four surface swatches and eight archive thumbnails run for a small number of frames (6 and 5 respectively), then freeze. Because the background drift is per-frame, this captures a representative moment.
+- **Off-screen pause** — an `IntersectionObserver` calls `noLoop()` on live instances that scroll out of view.
+- **`prefers-reduced-motion` respected.**
+
+---
+
+## About
+
+**Triangulum** is a project by [Reyhaneh Daneshdoost](https://reyrove.github.io/) — an Iranian-born artist working at the intersection of classical textile logic and generative systems.
+
+The work begins with a simple observation: the woven surface — repetitive, mathematically structured, infinitely variable — has always been a form of computation, long before computers.
+
+**Triangulum** is an attempt to render that logic visible.
+
+> *A triangle is the simplest closed form — and yet nothing closes cleanly.*
+
+---
+
+## Licensing
+
+All compositions are seed-documented and available for licensing across textile, surface, and apparel applications.
+
+For commercial use, custom editions, or exclusive rights:
+
+📧 **reyhanehdaneshdoost@gmail.com**
+
+See the **Licensing** section in the live catalogue for details.
+
+---
+
+## Links
+
+- 🌐 [Website](https://reyrove.github.io/)
+- 📷 [Instagram](https://www.instagram.com/rey._.rove/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/reyhaneh-daneshdoost-730481160/)
+- 🐦 [X](https://x.com/reyrove)
+
+---
+
+## Credits
+
+**Design & Generative System**  
+Reyhaneh Daneshdoost
+
+**Typefaces**  
+Cormorant Garamond · DM Mono
+
+**Edition**  
+Triangulum — Autumn 2026
+
+---
+
+<p align="center">
+  <em>Generative Triangle-Arc</em><br />
+  <sub>© Reyrove Studio · All compositions reproducible by seed</sub>
+</p>
